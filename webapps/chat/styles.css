@@ -1,0 +1,18 @@
+.overflow{
+    overflow-wrap: anywhere;
+}
+
+.chat{
+    overflow-y: scroll;
+    height: 700px;
+    width: 60%;
+}
+
+.rounded{
+    border-radius: 65px;
+}
+
+.right{
+    float: right;
+    padding-right: 2%;
+}
