@@ -13,3 +13,6 @@ textArea.onkeypress = function(e){
         if(textArea.value)form.submit();
     }
 }
+
+var chat = document.querySelector('.chat');
+chat.scrollTop = chat.scrollHeight;

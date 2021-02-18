@@ -3,16 +3,29 @@
 }
 
 .chat{
+    min-height: 100%;
     overflow-y: scroll;
-    height: 700px;
-    width: 60%;
+    height: 400px;
+    width: 100%;
+    display: grid;
+    
 }
 
 .rounded{
-    border-radius: 65px;
+    border-radius: 15px;
 }
 
 .right{
     float: right;
     padding-right: 2%;
+}
+
+.container{
+    padding-top: 4%;
+}
+
+.chatmsg{
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+    align-self: end;
 }

@@ -1,0 +1,795 @@
+18-Feb-2021 17:15:08.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :   Apache Tomcat/9.0.39
+18-Feb-2021 17:15:08.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :       Oct 6 2020 14:11:46 UTC
+18-Feb-2021 17:15:08.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :    9.0.39.0
+18-Feb-2021 17:15:08.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :           Windows 10
+18-Feb-2021 17:15:08.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :            10.0
+18-Feb-2021 17:15:08.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :          amd64
+18-Feb-2021 17:15:08.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :             C:\Program Files\Java\jdk-15.0.1
+18-Feb-2021 17:15:08.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :           15.0.1+9-18
+18-Feb-2021 17:15:08.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM : Oracle Corporation
+18-Feb-2021 17:15:08.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 17:15:08.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 17:15:08.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Feb-2021 17:15:08.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+18-Feb-2021 17:15:08.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Feb-2021 17:15:08.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:/Users/titis/Desktop/cours/projet-chat/conf/logging.properties
+18-Feb-2021 17:15:08.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2021 17:15:08.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+18-Feb-2021 17:15:08.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Feb-2021 17:15:08.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Feb-2021 17:15:08.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+18-Feb-2021 17:15:08.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 17:15:08.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 17:15:08.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:/Users/titis/Desktop/cours/projet-chat/temp
+18-Feb-2021 17:15:08.440 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\titis\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\titis\bin;C:\Program Files (x86)\VMware\VMware Player\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Users\titis\Desktop\cours\prod-appli\pmd-bin-6.29.0\bin;C:\Program Files\Git\cmd;C:\Users\titis\AppData\Local\Microsoft\WindowsApps;C:\Users\titis\AppData\Roaming\npm;C:\Users\titis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+18-Feb-2021 17:15:08.874 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 17:15:08.960 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [1163] millisecondes
+18-Feb-2021 17:15:09.061 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+18-Feb-2021 17:15:09.061 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.39]
+18-Feb-2021 17:15:09.103 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat]
+18-Feb-2021 17:15:09.952 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 17:15:10.102 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat] de l'application web s'est terminé en [997] ms
+18-Feb-2021 17:15:10.107 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 17:15:10.133 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1172] millisecondes
+18-Feb-2021 17:38:32.445 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 17:38:32.453 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc L'application web [chat] a enregistré un pilote JDBC [org.h2.Driver], mais ne l'a pas désenregistré avant l'arrêt de l'application.  Pour éviter une fuite de mémoire, le pilote JDBC a été désenregistré de force.
+18-Feb-2021 17:38:32.644 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 17:38:32.649 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 17:38:52.707 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 17:38:52.929 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 17:38:52.936 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 17:39:33.077 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 17:39:33.260 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 17:39:33.264 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 17:39:43.290 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 17:39:43.516 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 17:39:43.521 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 17:43:54.427 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 17:43:54.627 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 17:43:54.632 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 17:44:24.739 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 17:44:24.978 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 17:44:24.982 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 17:44:55.079 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 17:44:55.270 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 17:44:55.279 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 17:45:55.506 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 17:45:55.757 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 17:45:55.766 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 17:46:25.868 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 17:46:26.134 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 17:46:26.140 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 17:53:37.963 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 17:53:38.141 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 17:53:38.146 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:00:41.731 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:00:41.735 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc L'application web [chat] a enregistré un pilote JDBC [org.h2.Driver], mais ne l'a pas désenregistré avant l'arrêt de l'application.  Pour éviter une fuite de mémoire, le pilote JDBC a été désenregistré de force.
+18-Feb-2021 18:00:41.905 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:00:41.910 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:05:43.034 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:05:43.265 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:05:43.270 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:26:22.722 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+18-Feb-2021 18:26:22.730 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+18-Feb-2021 18:26:22.739 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:26:22.782 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:26:25.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :   Apache Tomcat/9.0.39
+18-Feb-2021 18:26:25.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :       Oct 6 2020 14:11:46 UTC
+18-Feb-2021 18:26:25.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :    9.0.39.0
+18-Feb-2021 18:26:25.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :           Windows 10
+18-Feb-2021 18:26:25.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :            10.0
+18-Feb-2021 18:26:25.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :          amd64
+18-Feb-2021 18:26:25.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :             C:\Program Files\Java\jdk-15.0.1
+18-Feb-2021 18:26:25.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :           15.0.1+9-18
+18-Feb-2021 18:26:25.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM : Oracle Corporation
+18-Feb-2021 18:26:25.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 18:26:25.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 18:26:25.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Feb-2021 18:26:25.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+18-Feb-2021 18:26:25.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Feb-2021 18:26:25.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:/Users/titis/Desktop/cours/projet-chat/conf/logging.properties
+18-Feb-2021 18:26:25.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2021 18:26:25.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+18-Feb-2021 18:26:25.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Feb-2021 18:26:25.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Feb-2021 18:26:25.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+18-Feb-2021 18:26:25.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 18:26:25.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 18:26:25.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:/Users/titis/Desktop/cours/projet-chat/temp
+18-Feb-2021 18:26:25.212 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\titis\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\titis\bin;C:\Program Files (x86)\VMware\VMware Player\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Users\titis\Desktop\cours\prod-appli\pmd-bin-6.29.0\bin;C:\Program Files\Git\cmd;C:\Users\titis\AppData\Local\Microsoft\WindowsApps;C:\Users\titis\AppData\Roaming\npm;C:\Users\titis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+18-Feb-2021 18:26:25.587 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:26:25.668 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [728] millisecondes
+18-Feb-2021 18:26:25.706 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+18-Feb-2021 18:26:25.706 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.39]
+18-Feb-2021 18:26:25.714 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat]
+18-Feb-2021 18:26:26.195 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:26:26.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat] de l'application web s'est terminé en [601] ms
+18-Feb-2021 18:26:26.322 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:26:26.336 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [666] millisecondes
+18-Feb-2021 18:33:11.298 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+18-Feb-2021 18:33:11.311 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+18-Feb-2021 18:33:11.328 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:33:11.358 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:33:12.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :   Apache Tomcat/9.0.39
+18-Feb-2021 18:33:12.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :       Oct 6 2020 14:11:46 UTC
+18-Feb-2021 18:33:12.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :    9.0.39.0
+18-Feb-2021 18:33:12.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :           Windows 10
+18-Feb-2021 18:33:12.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :            10.0
+18-Feb-2021 18:33:12.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :          amd64
+18-Feb-2021 18:33:12.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :             C:\Program Files\Java\jdk-15.0.1
+18-Feb-2021 18:33:12.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :           15.0.1+9-18
+18-Feb-2021 18:33:12.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM : Oracle Corporation
+18-Feb-2021 18:33:12.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 18:33:12.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 18:33:12.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Feb-2021 18:33:12.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+18-Feb-2021 18:33:12.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Feb-2021 18:33:12.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:/Users/titis/Desktop/cours/projet-chat/conf/logging.properties
+18-Feb-2021 18:33:12.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2021 18:33:12.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+18-Feb-2021 18:33:12.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Feb-2021 18:33:12.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Feb-2021 18:33:12.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+18-Feb-2021 18:33:12.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 18:33:12.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 18:33:12.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:/Users/titis/Desktop/cours/projet-chat/temp
+18-Feb-2021 18:33:12.714 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\titis\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\titis\bin;C:\Program Files (x86)\VMware\VMware Player\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Users\titis\Desktop\cours\prod-appli\pmd-bin-6.29.0\bin;C:\Program Files\Git\cmd;C:\Users\titis\AppData\Local\Microsoft\WindowsApps;C:\Users\titis\AppData\Roaming\npm;C:\Users\titis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+18-Feb-2021 18:33:13.019 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:33:13.105 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [637] millisecondes
+18-Feb-2021 18:33:13.152 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+18-Feb-2021 18:33:13.152 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.39]
+18-Feb-2021 18:33:13.162 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat]
+18-Feb-2021 18:33:13.696 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:33:13.765 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat] de l'application web s'est terminé en [601] ms
+18-Feb-2021 18:33:13.768 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:33:13.776 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [671] millisecondes
+18-Feb-2021 18:34:17.428 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+18-Feb-2021 18:34:17.443 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+18-Feb-2021 18:34:17.460 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:34:17.489 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:34:18.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :   Apache Tomcat/9.0.39
+18-Feb-2021 18:34:18.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :       Oct 6 2020 14:11:46 UTC
+18-Feb-2021 18:34:18.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :    9.0.39.0
+18-Feb-2021 18:34:18.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :           Windows 10
+18-Feb-2021 18:34:18.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :            10.0
+18-Feb-2021 18:34:18.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :          amd64
+18-Feb-2021 18:34:18.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :             C:\Program Files\Java\jdk-15.0.1
+18-Feb-2021 18:34:18.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :           15.0.1+9-18
+18-Feb-2021 18:34:18.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM : Oracle Corporation
+18-Feb-2021 18:34:18.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 18:34:18.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 18:34:18.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Feb-2021 18:34:18.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+18-Feb-2021 18:34:18.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Feb-2021 18:34:18.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:/Users/titis/Desktop/cours/projet-chat/conf/logging.properties
+18-Feb-2021 18:34:18.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2021 18:34:18.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+18-Feb-2021 18:34:18.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Feb-2021 18:34:18.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Feb-2021 18:34:18.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+18-Feb-2021 18:34:18.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 18:34:18.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 18:34:18.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:/Users/titis/Desktop/cours/projet-chat/temp
+18-Feb-2021 18:34:18.774 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\titis\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\titis\bin;C:\Program Files (x86)\VMware\VMware Player\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Users\titis\Desktop\cours\prod-appli\pmd-bin-6.29.0\bin;C:\Program Files\Git\cmd;C:\Users\titis\AppData\Local\Microsoft\WindowsApps;C:\Users\titis\AppData\Roaming\npm;C:\Users\titis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+18-Feb-2021 18:34:19.127 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:34:19.207 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [698] millisecondes
+18-Feb-2021 18:34:19.267 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+18-Feb-2021 18:34:19.268 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.39]
+18-Feb-2021 18:34:19.282 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat]
+18-Feb-2021 18:34:19.924 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:34:20.001 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat] de l'application web s'est terminé en [717] ms
+18-Feb-2021 18:34:20.004 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:34:20.013 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [806] millisecondes
+18-Feb-2021 18:40:53.694 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+18-Feb-2021 18:40:53.709 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+18-Feb-2021 18:40:53.727 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:40:53.755 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:40:55.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :   Apache Tomcat/9.0.39
+18-Feb-2021 18:40:55.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :       Oct 6 2020 14:11:46 UTC
+18-Feb-2021 18:40:55.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :    9.0.39.0
+18-Feb-2021 18:40:55.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :           Windows 10
+18-Feb-2021 18:40:55.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :            10.0
+18-Feb-2021 18:40:55.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :          amd64
+18-Feb-2021 18:40:55.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :             C:\Program Files\Java\jdk-15.0.1
+18-Feb-2021 18:40:55.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :           15.0.1+9-18
+18-Feb-2021 18:40:55.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM : Oracle Corporation
+18-Feb-2021 18:40:55.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 18:40:55.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 18:40:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Feb-2021 18:40:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+18-Feb-2021 18:40:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Feb-2021 18:40:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:/Users/titis/Desktop/cours/projet-chat/conf/logging.properties
+18-Feb-2021 18:40:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2021 18:40:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+18-Feb-2021 18:40:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Feb-2021 18:40:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Feb-2021 18:40:55.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+18-Feb-2021 18:40:55.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 18:40:55.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 18:40:55.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:/Users/titis/Desktop/cours/projet-chat/temp
+18-Feb-2021 18:40:55.488 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\titis\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\titis\bin;C:\Program Files (x86)\VMware\VMware Player\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Users\titis\Desktop\cours\prod-appli\pmd-bin-6.29.0\bin;C:\Program Files\Git\cmd;C:\Users\titis\AppData\Local\Microsoft\WindowsApps;C:\Users\titis\AppData\Roaming\npm;C:\Users\titis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+18-Feb-2021 18:40:55.855 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:40:55.964 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [769] millisecondes
+18-Feb-2021 18:40:56.079 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+18-Feb-2021 18:40:56.080 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.39]
+18-Feb-2021 18:40:56.096 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat]
+18-Feb-2021 18:40:56.639 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:40:56.722 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat] de l'application web s'est terminé en [624] ms
+18-Feb-2021 18:40:56.726 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:40:56.735 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [770] millisecondes
+18-Feb-2021 18:41:56.963 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:41:57.194 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:41:57.199 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:42:07.224 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:42:07.471 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:42:07.478 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:43:07.713 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:43:07.918 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:43:07.923 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:43:27.993 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:43:28.214 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:43:28.218 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:43:48.303 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:43:48.515 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:43:48.520 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:44:28.664 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:44:28.880 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:44:28.886 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:45:09.026 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:45:09.217 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:45:09.221 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:45:29.283 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:45:29.468 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:45:29.472 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:45:39.495 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:45:39.689 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:45:39.693 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:48:10.292 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:48:10.477 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Exception lors du démarrage du contexte [/chat]
+	org.apache.catalina.LifecycleException: Echec de démarrage du composant [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/chat]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3792)
+		at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:311)
+		at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5565)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+	Caused by: java.lang.NoClassDefFoundError: Random
+		at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+		at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3220)
+		at java.base/java.lang.Class.getDeclaredFields(Class.java:2341)
+		at org.apache.catalina.util.Introspection.getDeclaredFields(Introspection.java:110)
+		at org.apache.catalina.startup.WebAnnotationSet.loadFieldsAnnotation(WebAnnotationSet.java:269)
+		at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:137)
+		at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:69)
+		at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:332)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:988)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5082)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 14 more
+	Caused by: java.lang.ClassNotFoundException: Random
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1365)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		... 27 more
+18-Feb-2021 18:48:10.478 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:51:38.914 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+18-Feb-2021 18:51:38.929 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+18-Feb-2021 18:51:38.930 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:51:38.974 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:51:40.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :   Apache Tomcat/9.0.39
+18-Feb-2021 18:51:40.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :       Oct 6 2020 14:11:46 UTC
+18-Feb-2021 18:51:40.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :    9.0.39.0
+18-Feb-2021 18:51:40.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :           Windows 10
+18-Feb-2021 18:51:40.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :            10.0
+18-Feb-2021 18:51:40.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :          amd64
+18-Feb-2021 18:51:40.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :             C:\Program Files\Java\jdk-15.0.1
+18-Feb-2021 18:51:40.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :           15.0.1+9-18
+18-Feb-2021 18:51:40.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM : Oracle Corporation
+18-Feb-2021 18:51:40.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 18:51:40.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 18:51:40.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Feb-2021 18:51:40.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+18-Feb-2021 18:51:40.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Feb-2021 18:51:40.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:/Users/titis/Desktop/cours/projet-chat/conf/logging.properties
+18-Feb-2021 18:51:40.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2021 18:51:40.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+18-Feb-2021 18:51:40.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Feb-2021 18:51:40.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Feb-2021 18:51:40.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+18-Feb-2021 18:51:40.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 18:51:40.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 18:51:40.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:/Users/titis/Desktop/cours/projet-chat/temp
+18-Feb-2021 18:51:40.314 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\titis\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\titis\bin;C:\Program Files (x86)\VMware\VMware Player\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Users\titis\Desktop\cours\prod-appli\pmd-bin-6.29.0\bin;C:\Program Files\Git\cmd;C:\Users\titis\AppData\Local\Microsoft\WindowsApps;C:\Users\titis\AppData\Roaming\npm;C:\Users\titis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+18-Feb-2021 18:51:40.698 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:51:40.782 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [762] millisecondes
+18-Feb-2021 18:51:40.856 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+18-Feb-2021 18:51:40.856 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.39]
+18-Feb-2021 18:51:40.868 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat]
+18-Feb-2021 18:51:41.486 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:51:41.574 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat] de l'application web s'est terminé en [703] ms
+18-Feb-2021 18:51:41.577 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 18:51:41.586 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [804] millisecondes
+18-Feb-2021 18:52:11.686 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:52:11.913 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:52:11.919 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:53:32.242 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:53:32.459 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:53:32.464 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:53:42.489 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:53:42.697 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:53:42.702 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:54:22.845 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:54:23.038 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:54:23.043 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:54:33.069 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:54:33.287 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:54:33.292 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:54:43.316 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:54:43.508 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:54:43.513 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:55:13.616 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:55:13.813 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:55:13.818 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:56:04.001 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:56:04.281 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:56:04.288 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:57:04.508 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:57:04.695 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:57:04.699 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:57:14.723 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:57:14.913 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:57:14.919 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:57:34.982 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:57:35.192 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:57:35.196 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:57:45.222 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:57:45.403 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:57:45.408 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:58:05.470 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:58:05.650 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:58:05.655 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:58:35.756 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:58:35.966 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:58:35.970 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:59:06.073 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:59:06.251 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:59:06.257 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:59:26.318 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:59:26.500 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:59:26.505 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 18:59:36.532 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 18:59:36.728 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 18:59:36.732 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:00:16.875 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:00:17.061 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:00:17.066 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:00:57.211 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:00:57.392 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:00:57.396 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:01:17.455 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:01:17.628 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:01:17.633 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:02:07.812 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:02:08.015 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:02:08.019 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:02:14.295 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+18-Feb-2021 19:02:14.309 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+18-Feb-2021 19:02:14.316 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:02:14.355 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:02:15.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :   Apache Tomcat/9.0.39
+18-Feb-2021 19:02:15.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :       Oct 6 2020 14:11:46 UTC
+18-Feb-2021 19:02:15.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :    9.0.39.0
+18-Feb-2021 19:02:15.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :           Windows 10
+18-Feb-2021 19:02:15.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :            10.0
+18-Feb-2021 19:02:15.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :          amd64
+18-Feb-2021 19:02:15.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :             C:\Program Files\Java\jdk-15.0.1
+18-Feb-2021 19:02:15.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :           15.0.1+9-18
+18-Feb-2021 19:02:15.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM : Oracle Corporation
+18-Feb-2021 19:02:15.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 19:02:15.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 19:02:15.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Feb-2021 19:02:15.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+18-Feb-2021 19:02:15.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Feb-2021 19:02:15.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:/Users/titis/Desktop/cours/projet-chat/conf/logging.properties
+18-Feb-2021 19:02:15.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2021 19:02:15.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+18-Feb-2021 19:02:15.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Feb-2021 19:02:15.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Feb-2021 19:02:15.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+18-Feb-2021 19:02:15.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 19:02:15.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 19:02:15.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:/Users/titis/Desktop/cours/projet-chat/temp
+18-Feb-2021 19:02:15.495 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\titis\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\titis\bin;C:\Program Files (x86)\VMware\VMware Player\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Users\titis\Desktop\cours\prod-appli\pmd-bin-6.29.0\bin;C:\Program Files\Git\cmd;C:\Users\titis\AppData\Local\Microsoft\WindowsApps;C:\Users\titis\AppData\Roaming\npm;C:\Users\titis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+18-Feb-2021 19:02:15.851 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:02:15.964 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [756] millisecondes
+18-Feb-2021 19:02:16.008 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+18-Feb-2021 19:02:16.009 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.39]
+18-Feb-2021 19:02:16.017 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat]
+18-Feb-2021 19:02:16.521 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:02:16.598 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat] de l'application web s'est terminé en [578] ms
+18-Feb-2021 19:02:16.601 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:02:16.613 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [648] millisecondes
+18-Feb-2021 19:02:46.715 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:02:46.970 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:02:46.975 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:08:00.142 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:08:00.146 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc L'application web [chat] a enregistré un pilote JDBC [org.h2.Driver], mais ne l'a pas désenregistré avant l'arrêt de l'application.  Pour éviter une fuite de mémoire, le pilote JDBC a été désenregistré de force.
+18-Feb-2021 19:08:00.342 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:08:00.347 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:09:10.900 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:09:10.903 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc L'application web [chat] a enregistré un pilote JDBC [org.h2.Driver], mais ne l'a pas désenregistré avant l'arrêt de l'application.  Pour éviter une fuite de mémoire, le pilote JDBC a été désenregistré de force.
+18-Feb-2021 19:09:11.089 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:09:11.094 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:09:41.193 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:09:41.391 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:09:41.396 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:10:28.868 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+18-Feb-2021 19:10:28.882 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+18-Feb-2021 19:10:28.890 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:10:28.932 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:10:30.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :   Apache Tomcat/9.0.39
+18-Feb-2021 19:10:30.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :       Oct 6 2020 14:11:46 UTC
+18-Feb-2021 19:10:30.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :    9.0.39.0
+18-Feb-2021 19:10:30.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :           Windows 10
+18-Feb-2021 19:10:30.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :            10.0
+18-Feb-2021 19:10:30.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :          amd64
+18-Feb-2021 19:10:30.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :             C:\Program Files\Java\jdk-15.0.1
+18-Feb-2021 19:10:30.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :           15.0.1+9-18
+18-Feb-2021 19:10:30.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM : Oracle Corporation
+18-Feb-2021 19:10:30.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 19:10:30.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 19:10:30.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Feb-2021 19:10:30.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+18-Feb-2021 19:10:30.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Feb-2021 19:10:30.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:/Users/titis/Desktop/cours/projet-chat/conf/logging.properties
+18-Feb-2021 19:10:30.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2021 19:10:30.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+18-Feb-2021 19:10:30.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Feb-2021 19:10:30.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Feb-2021 19:10:30.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+18-Feb-2021 19:10:30.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 19:10:30.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 19:10:30.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:/Users/titis/Desktop/cours/projet-chat/temp
+18-Feb-2021 19:10:30.238 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\titis\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\titis\bin;C:\Program Files (x86)\VMware\VMware Player\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Users\titis\Desktop\cours\prod-appli\pmd-bin-6.29.0\bin;C:\Program Files\Git\cmd;C:\Users\titis\AppData\Local\Microsoft\WindowsApps;C:\Users\titis\AppData\Roaming\npm;C:\Users\titis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+18-Feb-2021 19:10:30.643 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:10:30.753 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [769] millisecondes
+18-Feb-2021 19:10:30.801 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+18-Feb-2021 19:10:30.802 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.39]
+18-Feb-2021 19:10:30.810 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat]
+18-Feb-2021 19:10:31.487 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:10:31.570 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat] de l'application web s'est terminé en [758] ms
+18-Feb-2021 19:10:31.574 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:10:31.582 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [828] millisecondes
+18-Feb-2021 19:12:32.824 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:12:32.832 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc L'application web [chat] a enregistré un pilote JDBC [org.h2.Driver], mais ne l'a pas désenregistré avant l'arrêt de l'application.  Pour éviter une fuite de mémoire, le pilote JDBC a été désenregistré de force.
+18-Feb-2021 19:12:33.038 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:12:33.044 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:14:03.397 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:14:03.637 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:14:03.643 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:14:13.672 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:14:13.870 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:14:13.874 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:14:33.998 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:14:34.192 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:14:34.197 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:15:24.383 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:15:24.587 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:15:24.592 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:15:44.659 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:15:44.858 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:15:44.863 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:16:25.008 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:16:25.198 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:16:25.202 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:17:15.389 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:17:15.586 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:17:15.592 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:18:25.859 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:18:26.069 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:18:26.073 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:18:46.145 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:18:46.154 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+18-Feb-2021 19:18:46.167 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+18-Feb-2021 19:18:46.168 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:18:46.213 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:18:46.338 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:18:46.342 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:18:46.343 SEVERE [Thread-3] org.apache.catalina.core.ContainerBase.removeChild Erreur lors de la destruction du conteneur fils
+	org.apache.catalina.LifecycleException: Un transition de Lifecycle invalide a été tentée ([before_destroy]) pour le composant [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/chat]] dans l'état [STARTED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:430)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:316)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:817)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:1023)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:817)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:1023)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:556)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:1065)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:850)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:996)
+18-Feb-2021 19:18:47.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :   Apache Tomcat/9.0.39
+18-Feb-2021 19:18:47.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :       Oct 6 2020 14:11:46 UTC
+18-Feb-2021 19:18:47.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :    9.0.39.0
+18-Feb-2021 19:18:47.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :           Windows 10
+18-Feb-2021 19:18:47.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :            10.0
+18-Feb-2021 19:18:47.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :          amd64
+18-Feb-2021 19:18:47.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :             C:\Program Files\Java\jdk-15.0.1
+18-Feb-2021 19:18:47.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :           15.0.1+9-18
+18-Feb-2021 19:18:47.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM : Oracle Corporation
+18-Feb-2021 19:18:47.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 19:18:47.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 19:18:47.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Feb-2021 19:18:47.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+18-Feb-2021 19:18:47.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Feb-2021 19:18:47.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:/Users/titis/Desktop/cours/projet-chat/conf/logging.properties
+18-Feb-2021 19:18:47.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2021 19:18:47.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+18-Feb-2021 19:18:47.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Feb-2021 19:18:47.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Feb-2021 19:18:47.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+18-Feb-2021 19:18:47.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 19:18:47.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 19:18:47.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:/Users/titis/Desktop/cours/projet-chat/temp
+18-Feb-2021 19:18:47.493 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\titis\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\titis\bin;C:\Program Files (x86)\VMware\VMware Player\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Users\titis\Desktop\cours\prod-appli\pmd-bin-6.29.0\bin;C:\Program Files\Git\cmd;C:\Users\titis\AppData\Local\Microsoft\WindowsApps;C:\Users\titis\AppData\Roaming\npm;C:\Users\titis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+18-Feb-2021 19:18:47.882 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:18:47.989 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [741] millisecondes
+18-Feb-2021 19:18:48.068 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+18-Feb-2021 19:18:48.068 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.39]
+18-Feb-2021 19:18:48.077 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat]
+18-Feb-2021 19:18:48.663 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:18:48.737 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat] de l'application web s'est terminé en [657] ms
+18-Feb-2021 19:18:48.742 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:18:48.753 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [764] millisecondes
+18-Feb-2021 19:20:09.573 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:20:09.578 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc L'application web [chat] a enregistré un pilote JDBC [org.h2.Driver], mais ne l'a pas désenregistré avant l'arrêt de l'application.  Pour éviter une fuite de mémoire, le pilote JDBC a été désenregistré de force.
+18-Feb-2021 19:20:09.802 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:20:09.807 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:20:21.001 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+18-Feb-2021 19:20:21.014 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+18-Feb-2021 19:20:21.017 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc L'application web [chat] a enregistré un pilote JDBC [org.h2.Driver], mais ne l'a pas désenregistré avant l'arrêt de l'application.  Pour éviter une fuite de mémoire, le pilote JDBC a été désenregistré de force.
+18-Feb-2021 19:20:21.018 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:20:21.060 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:20:22.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :   Apache Tomcat/9.0.39
+18-Feb-2021 19:20:22.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :       Oct 6 2020 14:11:46 UTC
+18-Feb-2021 19:20:22.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :    9.0.39.0
+18-Feb-2021 19:20:22.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :           Windows 10
+18-Feb-2021 19:20:22.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :            10.0
+18-Feb-2021 19:20:22.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :          amd64
+18-Feb-2021 19:20:22.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :             C:\Program Files\Java\jdk-15.0.1
+18-Feb-2021 19:20:22.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :           15.0.1+9-18
+18-Feb-2021 19:20:22.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM : Oracle Corporation
+18-Feb-2021 19:20:22.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 19:20:22.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 19:20:22.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Feb-2021 19:20:22.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+18-Feb-2021 19:20:22.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Feb-2021 19:20:22.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:/Users/titis/Desktop/cours/projet-chat/conf/logging.properties
+18-Feb-2021 19:20:22.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2021 19:20:22.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+18-Feb-2021 19:20:22.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Feb-2021 19:20:22.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Feb-2021 19:20:22.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+18-Feb-2021 19:20:22.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 19:20:22.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 19:20:22.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:/Users/titis/Desktop/cours/projet-chat/temp
+18-Feb-2021 19:20:22.252 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\titis\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\titis\bin;C:\Program Files (x86)\VMware\VMware Player\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Users\titis\Desktop\cours\prod-appli\pmd-bin-6.29.0\bin;C:\Program Files\Git\cmd;C:\Users\titis\AppData\Local\Microsoft\WindowsApps;C:\Users\titis\AppData\Roaming\npm;C:\Users\titis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+18-Feb-2021 19:20:22.590 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:20:22.710 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [772] millisecondes
+18-Feb-2021 19:20:22.780 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+18-Feb-2021 19:20:22.781 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.39]
+18-Feb-2021 19:20:22.789 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat]
+18-Feb-2021 19:20:23.296 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:20:23.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat] de l'application web s'est terminé en [572] ms
+18-Feb-2021 19:20:23.367 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:20:23.375 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [663] millisecondes
+18-Feb-2021 19:21:34.043 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:21:34.049 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc L'application web [chat] a enregistré un pilote JDBC [org.h2.Driver], mais ne l'a pas désenregistré avant l'arrêt de l'application.  Pour éviter une fuite de mémoire, le pilote JDBC a été désenregistré de force.
+18-Feb-2021 19:21:34.275 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:21:34.279 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:21:54.385 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:21:54.597 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:21:54.600 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:22:04.627 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:22:04.835 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:22:04.838 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:22:14.870 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:22:15.074 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:22:15.077 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:22:25.106 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:22:25.301 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:22:25.304 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:22:35.331 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:22:35.523 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:22:35.527 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:22:55.135 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+18-Feb-2021 19:22:55.147 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+18-Feb-2021 19:22:55.154 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:22:55.194 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:22:56.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :   Apache Tomcat/9.0.39
+18-Feb-2021 19:22:56.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :       Oct 6 2020 14:11:46 UTC
+18-Feb-2021 19:22:56.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :    9.0.39.0
+18-Feb-2021 19:22:56.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :           Windows 10
+18-Feb-2021 19:22:56.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :            10.0
+18-Feb-2021 19:22:56.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :          amd64
+18-Feb-2021 19:22:56.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :             C:\Program Files\Java\jdk-15.0.1
+18-Feb-2021 19:22:56.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :           15.0.1+9-18
+18-Feb-2021 19:22:56.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM : Oracle Corporation
+18-Feb-2021 19:22:56.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 19:22:56.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 19:22:56.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Feb-2021 19:22:56.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+18-Feb-2021 19:22:56.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Feb-2021 19:22:56.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:/Users/titis/Desktop/cours/projet-chat/conf/logging.properties
+18-Feb-2021 19:22:56.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2021 19:22:56.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+18-Feb-2021 19:22:56.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Feb-2021 19:22:56.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Feb-2021 19:22:56.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+18-Feb-2021 19:22:56.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 19:22:56.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 19:22:56.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:/Users/titis/Desktop/cours/projet-chat/temp
+18-Feb-2021 19:22:56.798 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\titis\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\titis\bin;C:\Program Files (x86)\VMware\VMware Player\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Users\titis\Desktop\cours\prod-appli\pmd-bin-6.29.0\bin;C:\Program Files\Git\cmd;C:\Users\titis\AppData\Local\Microsoft\WindowsApps;C:\Users\titis\AppData\Roaming\npm;C:\Users\titis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+18-Feb-2021 19:22:57.125 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:22:57.213 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [746] millisecondes
+18-Feb-2021 19:22:57.270 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+18-Feb-2021 19:22:57.271 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.39]
+18-Feb-2021 19:22:57.280 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat]
+18-Feb-2021 19:22:57.813 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:22:57.873 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat] de l'application web s'est terminé en [591] ms
+18-Feb-2021 19:22:57.876 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:22:57.884 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [669] millisecondes
+18-Feb-2021 19:23:58.438 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:23:58.451 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc L'application web [chat] a enregistré un pilote JDBC [org.h2.Driver], mais ne l'a pas désenregistré avant l'arrêt de l'application.  Pour éviter une fuite de mémoire, le pilote JDBC a été désenregistré de force.
+18-Feb-2021 19:23:58.663 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:23:58.671 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:24:49.154 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:24:49.158 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc L'application web [chat] a enregistré un pilote JDBC [org.h2.Driver], mais ne l'a pas désenregistré avant l'arrêt de l'application.  Pour éviter une fuite de mémoire, le pilote JDBC a été désenregistré de force.
+18-Feb-2021 19:24:49.369 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:24:49.375 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:24:59.408 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:24:59.612 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:24:59.617 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:25:04.386 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+18-Feb-2021 19:25:04.400 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+18-Feb-2021 19:25:04.407 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:25:04.445 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:25:05.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :   Apache Tomcat/9.0.39
+18-Feb-2021 19:25:05.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :       Oct 6 2020 14:11:46 UTC
+18-Feb-2021 19:25:05.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :    9.0.39.0
+18-Feb-2021 19:25:05.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :           Windows 10
+18-Feb-2021 19:25:05.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :            10.0
+18-Feb-2021 19:25:05.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :          amd64
+18-Feb-2021 19:25:05.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :             C:\Program Files\Java\jdk-15.0.1
+18-Feb-2021 19:25:05.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :           15.0.1+9-18
+18-Feb-2021 19:25:05.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM : Oracle Corporation
+18-Feb-2021 19:25:05.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 19:25:05.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 19:25:05.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Feb-2021 19:25:05.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+18-Feb-2021 19:25:05.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Feb-2021 19:25:05.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:/Users/titis/Desktop/cours/projet-chat/conf/logging.properties
+18-Feb-2021 19:25:05.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2021 19:25:05.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+18-Feb-2021 19:25:05.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Feb-2021 19:25:05.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Feb-2021 19:25:05.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+18-Feb-2021 19:25:05.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 19:25:05.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 19:25:05.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:/Users/titis/Desktop/cours/projet-chat/temp
+18-Feb-2021 19:25:05.776 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\titis\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\titis\bin;C:\Program Files (x86)\VMware\VMware Player\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Users\titis\Desktop\cours\prod-appli\pmd-bin-6.29.0\bin;C:\Program Files\Git\cmd;C:\Users\titis\AppData\Local\Microsoft\WindowsApps;C:\Users\titis\AppData\Roaming\npm;C:\Users\titis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+18-Feb-2021 19:25:06.162 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:25:06.253 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [725] millisecondes
+18-Feb-2021 19:25:06.308 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+18-Feb-2021 19:25:06.308 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.39]
+18-Feb-2021 19:25:06.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat]
+18-Feb-2021 19:25:06.990 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:25:07.061 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat] de l'application web s'est terminé en [741] ms
+18-Feb-2021 19:25:07.065 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:25:07.073 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [820] millisecondes
+18-Feb-2021 19:25:34.948 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+18-Feb-2021 19:25:34.961 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+18-Feb-2021 19:25:34.971 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc L'application web [chat] a enregistré un pilote JDBC [org.h2.Driver], mais ne l'a pas désenregistré avant l'arrêt de l'application.  Pour éviter une fuite de mémoire, le pilote JDBC a été désenregistré de force.
+18-Feb-2021 19:25:34.975 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:25:35.010 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:25:36.489 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :   Apache Tomcat/9.0.39
+18-Feb-2021 19:25:36.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :       Oct 6 2020 14:11:46 UTC
+18-Feb-2021 19:25:36.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :    9.0.39.0
+18-Feb-2021 19:25:36.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :           Windows 10
+18-Feb-2021 19:25:36.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :            10.0
+18-Feb-2021 19:25:36.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :          amd64
+18-Feb-2021 19:25:36.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :             C:\Program Files\Java\jdk-15.0.1
+18-Feb-2021 19:25:36.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :           15.0.1+9-18
+18-Feb-2021 19:25:36.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM : Oracle Corporation
+18-Feb-2021 19:25:36.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 19:25:36.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 19:25:36.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Feb-2021 19:25:36.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+18-Feb-2021 19:25:36.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Feb-2021 19:25:36.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:/Users/titis/Desktop/cours/projet-chat/conf/logging.properties
+18-Feb-2021 19:25:36.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2021 19:25:36.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+18-Feb-2021 19:25:36.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Feb-2021 19:25:36.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Feb-2021 19:25:36.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+18-Feb-2021 19:25:36.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 19:25:36.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 19:25:36.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:/Users/titis/Desktop/cours/projet-chat/temp
+18-Feb-2021 19:25:36.521 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\titis\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\titis\bin;C:\Program Files (x86)\VMware\VMware Player\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Users\titis\Desktop\cours\prod-appli\pmd-bin-6.29.0\bin;C:\Program Files\Git\cmd;C:\Users\titis\AppData\Local\Microsoft\WindowsApps;C:\Users\titis\AppData\Roaming\npm;C:\Users\titis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+18-Feb-2021 19:25:36.856 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:25:36.959 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [770] millisecondes
+18-Feb-2021 19:25:37.027 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+18-Feb-2021 19:25:37.028 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.39]
+18-Feb-2021 19:25:37.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat]
+18-Feb-2021 19:25:37.598 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:25:37.702 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat] de l'application web s'est terminé en [657] ms
+18-Feb-2021 19:25:37.707 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:25:37.718 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [757] millisecondes
+18-Feb-2021 19:27:59.104 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:27:59.115 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc L'application web [chat] a enregistré un pilote JDBC [org.h2.Driver], mais ne l'a pas désenregistré avant l'arrêt de l'application.  Pour éviter une fuite de mémoire, le pilote JDBC a été désenregistré de force.
+18-Feb-2021 19:27:59.330 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:27:59.336 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:28:19.404 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:28:19.630 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:28:19.635 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:28:40.228 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+18-Feb-2021 19:28:40.240 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+18-Feb-2021 19:28:40.245 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc L'application web [chat] a enregistré un pilote JDBC [org.h2.Driver], mais ne l'a pas désenregistré avant l'arrêt de l'application.  Pour éviter une fuite de mémoire, le pilote JDBC a été désenregistré de force.
+18-Feb-2021 19:28:40.249 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:28:40.287 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:28:41.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :   Apache Tomcat/9.0.39
+18-Feb-2021 19:28:41.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :       Oct 6 2020 14:11:46 UTC
+18-Feb-2021 19:28:41.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :    9.0.39.0
+18-Feb-2021 19:28:41.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :           Windows 10
+18-Feb-2021 19:28:41.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :            10.0
+18-Feb-2021 19:28:41.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :          amd64
+18-Feb-2021 19:28:41.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :             C:\Program Files\Java\jdk-15.0.1
+18-Feb-2021 19:28:41.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :           15.0.1+9-18
+18-Feb-2021 19:28:41.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM : Oracle Corporation
+18-Feb-2021 19:28:41.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 19:28:41.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :         C:\Users\titis\Desktop\cours\projet-chat
+18-Feb-2021 19:28:41.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Feb-2021 19:28:41.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+18-Feb-2021 19:28:41.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Feb-2021 19:28:41.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:/Users/titis/Desktop/cours/projet-chat/conf/logging.properties
+18-Feb-2021 19:28:41.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2021 19:28:41.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+18-Feb-2021 19:28:41.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Feb-2021 19:28:41.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Feb-2021 19:28:41.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+18-Feb-2021 19:28:41.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 19:28:41.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:/Users/titis/Desktop/cours/projet-chat
+18-Feb-2021 19:28:41.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:/Users/titis/Desktop/cours/projet-chat/temp
+18-Feb-2021 19:28:41.889 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\titis\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\titis\bin;C:\Program Files (x86)\VMware\VMware Player\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Users\titis\Desktop\cours\prod-appli\pmd-bin-6.29.0\bin;C:\Program Files\Git\cmd;C:\Users\titis\AppData\Local\Microsoft\WindowsApps;C:\Users\titis\AppData\Roaming\npm;C:\Users\titis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+18-Feb-2021 19:28:42.237 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:28:42.383 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [783] millisecondes
+18-Feb-2021 19:28:42.470 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+18-Feb-2021 19:28:42.471 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.39]
+18-Feb-2021 19:28:42.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat]
+18-Feb-2021 19:28:43.098 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:28:43.185 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\titis\Desktop\cours\projet-chat\webapps\chat] de l'application web s'est terminé en [691] ms
+18-Feb-2021 19:28:43.188 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:28:43.198 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [814] millisecondes
+18-Feb-2021 19:30:34.364 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/chat] a démarré
+18-Feb-2021 19:30:34.372 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc L'application web [chat] a enregistré un pilote JDBC [org.h2.Driver], mais ne l'a pas désenregistré avant l'arrêt de l'application.  Pour éviter une fuite de mémoire, le pilote JDBC a été désenregistré de force.
+18-Feb-2021 19:30:34.593 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+18-Feb-2021 19:30:34.601 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+18-Feb-2021 19:30:55.901 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+18-Feb-2021 19:30:55.916 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+18-Feb-2021 19:30:55.922 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc L'application web [chat] a enregistré un pilote JDBC [org.h2.Driver], mais ne l'a pas désenregistré avant l'arrêt de l'application.  Pour éviter une fuite de mémoire, le pilote JDBC a été désenregistré de force.
+18-Feb-2021 19:30:55.924 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+18-Feb-2021 19:30:55.962 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]

@@ -32,11 +32,20 @@ public class Chat extends HttpServlet{
 
 		}
 		else {
-			out.println("<div class=container><div class=chat>");
+			out.println("<nav>"
+					+ "    <div class=\"nav-wrapper blue darken-1\">"
+					+ "      <a href=\"#\" class=\"brand-logo\">Chat</a>"
+					+ "      <ul id=\"nav-mobile\" class=\"right hide-on-med-and-down\">"
+					+ "        <li><a href=Disconnect>  <i class=\"material-icons\">exit_to_app</i></a></li>"
+					+ "      </ul>"
+					+ "    </div>"
+					+ "  </nav>"
+					+ "<div class=container>"
+					+ "<div class=chat>");
 			String login=session.getAttribute("login").toString();
 			for(Messages m:messages) {
-				if(!m.getExpediteur().getLogin().equals(session.getAttribute("login")))out.println("<div class=row><span class=\"rounded grey lighten-2\" >&nbsp;&nbsp;"+m.getExpediteur().getLogin()+": "+m.getContenu()+"&nbsp;&nbsp;</span></div>");
-				else out.println("<div class=row ><span class=\"right blue darken-1 rounded\" >&nbsp;&nbsp;"+m.getExpediteur().getLogin()+" : "+m.getContenu()+"&nbsp;&nbsp;</span></div>");
+				if(!m.getExpediteur().getLogin().equals(session.getAttribute("login")))out.println("<div class=\"row chatmsg\"><span class=\"rounded grey lighten-2 left\" >&nbsp;&nbsp;"+m.getExpediteur().getLogin()+": "+m.getContenu()+"&nbsp;&nbsp;</span></div>");
+				else out.println("<div class=\"row chatmsg\" ><span class=\"rounded right blue darken-1 \" >&nbsp;&nbsp;"+m.getExpediteur().getLogin()+" : "+m.getContenu()+"&nbsp;&nbsp;</span></div>");
 			}
 			out.println("</div>"
 					+ "<div class=\"input-group row\">"
