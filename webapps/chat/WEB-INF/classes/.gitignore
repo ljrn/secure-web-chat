@@ -2,3 +2,6 @@
 /Chat.class
 /Disconnect.class
 /CreateAcc.class
+/chiffreRSA.class
+/dechiffreRSA.class
+/genRsaCle.class

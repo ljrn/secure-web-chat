@@ -1,19 +1,17 @@
 package pojos;
 
 public class Messages {
-	private String contenu;
+	private byte[] contenu;
 	private Personne expediteur;
-	public Messages(String contenu, Personne expediteur) {
+	public Messages(byte[] contenu, Personne expediteur) {
 		super();
 		this.contenu = contenu;
 		this.expediteur = expediteur;
 	}
-	public String getContenu() {
+	public byte[] getContenu() {
 		return contenu;
 	}
 	public Personne getExpediteur() {
 		return expediteur;
 	}
-	
-	
 }
