@@ -20,6 +20,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import org.apache.commons.text.StringEscapeUtils;
+import org.apache.commons.text.translate.CharSequenceTranslator;
+
 import pojos.Messages;
 import pojos.Personne;
 
@@ -87,7 +90,8 @@ public class Chat extends HttpServlet{
 		}
 	}
 	public void doPost(HttpServletRequest req, HttpServletResponse res)throws IOException {
-		String message=req.getParameter("message");
+		CharSequenceTranslator cst = StringEscapeUtils.ESCAPE_HTML4;
+		String message=cst.translate(req.getParameter("message"));
 		String login=req.getParameter("login");
 		Personne p=new Personne(login);
 		byte[] encrypted;

@@ -16,6 +16,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import org.apache.commons.text.StringEscapeUtils;
+import org.apache.commons.text.translate.CharSequenceTranslator;
+
 import util.Passwords;
 
 @WebServlet("/servlet/New")
@@ -64,6 +67,7 @@ public class CreateAcc extends HttpServlet{
 
 
 	public void doPost(HttpServletRequest req, HttpServletResponse res)throws IOException {
+		CharSequenceTranslator cst = StringEscapeUtils.ESCAPE_HTML4;
 		res.setContentType("text/html;charset=UTF-8");
 		PrintWriter out = res.getWriter();
 		Connection con=null;
@@ -86,7 +90,7 @@ public class CreateAcc extends HttpServlet{
 			byte[] salt = Passwords.getNextSalt();
 			byte[] saltedPassword = Passwords.hash(mdp.toCharArray(), salt);
 			PreparedStatement ps=con.prepareStatement(query);
-			ps.setString(1, login);
+			ps.setString(1, cst.translate(login));
 			ps.setString(2, Base64.getEncoder().encodeToString(salt));
 			ps.setString(3, Base64.getEncoder().encodeToString(saltedPassword));
 			ps.executeUpdate();
