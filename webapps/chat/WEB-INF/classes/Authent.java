@@ -5,12 +5,15 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Base64;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+
+import util.Passwords;
 
 @WebServlet("/servlet/Authent")
 public class Authent extends HttpServlet{
@@ -32,28 +35,39 @@ public class Authent extends HttpServlet{
 		}
 		String login=req.getParameter("login");
 		String mdp=req.getParameter("mdp");
-		String query="Select * from clients where login=? and mdp=?;";
+		String query="Select * from users where login=?;";
 
 		try{
 			PreparedStatement ps=con.prepareStatement(query);
 			ps.setString(1, login);
-			ps.setString(2, mdp);
-			out.println(ps.toString());
+			//ps.setString(2, mdp);
+			//out.println(ps.toString());
 			ResultSet rs=ps.executeQuery();
-			/*String salt ="";
-			int saltedMdp=0;
-			String compare="";
-			while(rs.next()) {
+			String salt ="";
+			String saltedMdp="";
+			if(rs.next()) {
 				salt=rs.getString("salt");
-				saltedMdp=rs.getInt("mdp");
-			}
-			compare = salt+mdp;*/
-			rs.next();
-			HttpSession session=req.getSession();
-			session.setAttribute("login", rs.getString(1));
-			res.sendRedirect("Chat");	
-			con.close();
+				saltedMdp=rs.getString("mdp");
+				out.println(salt +" "+saltedMdp+" "+ Passwords.isExpectedPassword(mdp.toCharArray(), Base64.getDecoder().decode(salt) , Base64.getDecoder().decode(saltedMdp)));
+				if(Passwords.isExpectedPassword(mdp.toCharArray(), Base64.getDecoder().decode(salt) , Base64.getDecoder().decode(saltedMdp))) {
+					//rs.next();
+					HttpSession session=req.getSession();
+					session.setAttribute("login", login);
+					res.sendRedirect("Chat");	
+				}
+				else {
+					out.println("Mauvais mot de passe");
+					res.sendRedirect("/chat/login.html");
+				}
 
+			}
+			else {
+				out.println("Utilisateur inconnu");
+				res.sendRedirect("/chat/login.html");
+
+			}
+
+			con.close();
 
 		}catch(SQLException e) {
 			res.sendRedirect("/chat/login.html");

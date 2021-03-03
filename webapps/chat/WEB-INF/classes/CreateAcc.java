@@ -16,17 +16,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import util.Passwords;
+
 @WebServlet("/servlet/New")
 public class CreateAcc extends HttpServlet{
 
 	private static final Random RANDOM = new SecureRandom();
-	
-	private String getNextSalt() {
-		byte[] bytes = new byte[16];
-		RANDOM.nextBytes(bytes);
-		String salt = Base64.getEncoder().encodeToString(bytes);
-		return salt;
-	}
 
 
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
@@ -89,15 +84,15 @@ public class CreateAcc extends HttpServlet{
 		String query="insert into users values(?,?,?);";
 
 		try{
-			String salt = this.getNextSalt();
-			String saltedPassword = salt+mdp;
+			byte[] salt = Passwords.getNextSalt();
+			byte[] saltedPassword = Passwords.hash(mdp.toCharArray(), salt);
 			PreparedStatement ps=con.prepareStatement(query);
 			ps.setString(1, login);
-			ps.setString(2, salt);
-			ps.setInt(3, saltedPassword.hashCode());
-			out.println(ps.toString());
+			ps.setString(2, Base64.getEncoder().encodeToString(salt));
+			ps.setString(3, Base64.getEncoder().encodeToString(saltedPassword));
 			ps.executeUpdate();
-			res.sendRedirect("/chat/login.html");	
+			out.println(Base64.getEncoder().encodeToString(salt)+" "+Base64.getEncoder().encodeToString(saltedPassword));
+			//res.sendRedirect("/chat/login.html");	
 			con.close();
 		}catch(SQLException e) {
 			try {
