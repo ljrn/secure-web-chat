@@ -69,7 +69,6 @@ public class CreateAcc extends HttpServlet{
 		Connection con=null;
 		try
 		{
-
 			Class.forName("org.h2.Driver");
 			String url = "jdbc:h2:tcp://localhost/~/chat";
 			String nom = "sa";

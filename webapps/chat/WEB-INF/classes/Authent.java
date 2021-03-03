@@ -64,7 +64,6 @@ public class Authent extends HttpServlet{
 			else {
 				out.println("Utilisateur inconnu");
 				res.sendRedirect("/chat/login.html");
-
 			}
 
 			con.close();
