@@ -13,5 +13,4 @@ public class Disconnect extends HttpServlet {
 		session.invalidate();
 		res.sendRedirect("/chat/login.html");	
 	}
-
 }

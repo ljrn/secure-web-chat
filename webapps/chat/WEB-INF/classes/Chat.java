@@ -1,5 +1,16 @@
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.security.KeyFactory;
+import java.security.KeyPair;
+import java.security.KeyPairGenerator;
+import java.security.NoSuchAlgorithmException;
+import java.security.PrivateKey;
+import java.security.PublicKey;
+import java.security.spec.PKCS8EncodedKeySpec;
+import java.security.spec.X509EncodedKeySpec;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,8 +55,24 @@ public class Chat extends HttpServlet{
 					+ "<div class=chat>");
 			String login=session.getAttribute("login").toString();
 			for(Messages m:messages) {
-				if(!m.getExpediteur().getLogin().equals(session.getAttribute("login")))out.println("<div class=\"row chatmsg\"><span class=\"rounded grey lighten-2 left\" >&nbsp;&nbsp;"+m.getExpediteur().getLogin()+": "+m.getContenu()+"&nbsp;&nbsp;</span></div>");
-				else out.println("<div class=\"row chatmsg\" ><span class=\"rounded right blue darken-1 \" >&nbsp;&nbsp;"+m.getExpediteur().getLogin()+" : "+m.getContenu()+"&nbsp;&nbsp;</span></div>");
+				if(!m.getExpediteur().getLogin().equals(session.getAttribute("login"))) {
+					try {
+						String affiche=dechiffreRSA.dechiffre(m.getContenu());
+						out.println("<div class=\"row chatmsg\"><span class=\"rounded grey lighten-2 left\" >&nbsp;&nbsp;"+m.getExpediteur().getLogin()+": "+affiche+"&nbsp;&nbsp;</span></div>");
+					} catch (Exception e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+				else {
+					try {
+						String affiche=dechiffreRSA.dechiffre(m.getContenu());
+						out.println("<div class=\"row chatmsg\" ><span class=\"rounded right blue darken-1 \" >&nbsp;&nbsp;"+m.getExpediteur().getLogin()+" : "+affiche+"&nbsp;&nbsp;</span></div>");
+					} catch (Exception e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
 			}
 			out.println("</div>"
 					+ "<div class=\"input-group row\">"
@@ -63,7 +90,14 @@ public class Chat extends HttpServlet{
 		String message=req.getParameter("message");
 		String login=req.getParameter("login");
 		Personne p=new Personne(login);
-		messages.add(new Messages(message,p));
+		byte[] encrypted;
+		try {
+			encrypted = chiffreRSA.chiffre(message.getBytes());
+			messages.add(new Messages(encrypted,p));
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		res.sendRedirect("Chat");
 	}
 
