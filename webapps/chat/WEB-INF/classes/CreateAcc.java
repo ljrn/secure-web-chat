@@ -90,8 +90,8 @@ public class CreateAcc extends HttpServlet{
 			ps.setString(2, Base64.getEncoder().encodeToString(salt));
 			ps.setString(3, Base64.getEncoder().encodeToString(saltedPassword));
 			ps.executeUpdate();
-			out.println(Base64.getEncoder().encodeToString(salt)+" "+Base64.getEncoder().encodeToString(saltedPassword));
-			//res.sendRedirect("/chat/login.html");	
+			//out.println(Base64.getEncoder().encodeToString(salt)+" "+Base64.getEncoder().encodeToString(saltedPassword));
+			res.sendRedirect("/chat/login.html");	
 			con.close();
 		}catch(SQLException e) {
 			try {
