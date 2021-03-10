@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:09:41:42 +0100] "GET /chat/servlet/Chat HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:09:41:42 +0100] "GET /chat/login.html HTTP/1.1" 200 1471
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:09:41:42 +0100] "GET /favicon.ico HTTP/1.1" 404 604
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:09:41:50 +0100] "POST /chat/servlet/Authent HTTP/1.1" 500 208
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:09:43:10 +0100] "GET /chat/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:09:43:15 +0100] "POST /chat/servlet/Authent HTTP/1.1" 500 208
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:09:44:10 +0100] "POST /chat/servlet/Authent HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:09:44:11 +0100] "GET /chat/servlet/Chat HTTP/1.1" 200 1115
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:09:44:11 +0100] "GET /chat/styles.css HTTP/1.1" 200 412
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:09:44:11 +0100] "GET /chat/scripts.js HTTP/1.1" 200 484
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:09:44:15 +0100] "POST /chat/servlet/Chat HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:09:44:15 +0100] "GET /chat/servlet/Chat HTTP/1.1" 200 1236
+0:0:0:0:0:0:0:1 - - [10/Mar/2021:09:44:20 +0100] "GET /chat/servlet/Disconnect HTTP/1.1" 302 -
