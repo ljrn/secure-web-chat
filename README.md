@@ -1,79 +1,46 @@
-## Welcome to Apache Tomcat!
+## Bienvenue sur ce chat web sécurisé
 
-### What Is It?
+### Description du projet :
 
-The Apache Tomcat® software is an open source implementation of the Java
-Servlet, JavaServer Pages, Java Expression Language and Java WebSocket
-technologies. The Java Servlet, JavaServer Pages, Java Expression Language and
-Java WebSocket specifications are developed under the
-[Java Community Process](https://jcp.org/en/introduction/overview).
+Notre chat sécurisé est un chat de groupe, c’est-à-dire que tout le monde communique dans
+le même groupe. Chaque personne voulant communiquer doit être authentifiée dans la base
+de données h2 associée.
 
-The Apache Tomcat software is developed in an open and participatory
-environment and released under the
-[Apache License version 2](https://www.apache.org/licenses/). The Apache Tomcat
-project is intended to be a collaboration of the best-of-breed developers from
-around the world. We invite you to participate in this open development
-project. To learn more about getting involved,
-[click here](https://tomcat.apache.org/getinvolved.html) or keep reading.
+### Compte rendu :
 
-Apache Tomcat software powers numerous large-scale, mission-critical web
-applications across a diverse range of industries and organizations. Some of
-these users and their stories are listed on the
-[PoweredBy wiki page](https://wiki.apache.org/tomcat/PoweredBy).
+Les principales difficultés que nous avons rencontrées sont des problèmes avec le
+chiffrement et le déchiffrement RSA qui étaient finalement dus à une mauvaise utilisation
+des méthodes développées. De plus nous avons mis du temps à développer le mécanisme
+empêchant l’injection SQL et le XSS. Le dernier problème majeur auquel nous avons été
+confrontés était le mécanisme de hachage avec Salt pour les mot-de-passe. Le fait que ce
+mécanisme engendre l’utilisation du chiffrement base64 nous a posé quelques problèmes.
+Nous avons appris à bien utiliser les différentes méthodes de chiffrement et de
+déchiffrement (RSA, base64) et aussi à mieux connaître les technologies permettant d’éviter
+les injection SQL et le XSS. Nous avons aussi découvert la méthode de hachage avec Salt qui
+est un bon moyen de sécuriser les mots-de-passe. Ce qui nous a plu est le fait de voir
+comment il est possible de sécuriser les communications avec des technologies assez
+simples d’utilisation. Aucun point négatif n’est à sortir de ce projet.
 
-Apache Tomcat, Tomcat, Apache, the Apache feather, and the Apache Tomcat
-project logo are trademarks of the Apache Software Foundation.
+### Mode d’emploi :
 
-### Get It
+À la racine du projet :
 
-For every major Tomcat version there is one download page containing
-links to the latest binary and source code downloads, but also
-links for browsing the download directories and archives:
-- [Tomcat 9](https://tomcat.apache.org/download-90.cgi)
-- [Tomcat 8](https://tomcat.apache.org/download-80.cgi)
-- [Tomcat 7](https://tomcat.apache.org/download-70.cgi)
+WINDOWS :
 
-To facilitate choosing the right major Tomcat version one, we have provided a
-[version overview page](https://tomcat.apache.org/whichversion.html).
+javac -cp .\lib\*; .\webapps\chat\WEB-INF\classes\*.java .\webapps\chat\WEB-INF\classes\pojos\*.java .\webapps\chat\WEB-INF\classes\util\*.java
 
-### Documentation
+LINUX
 
-The documentation available as of the date of this release is
-included in the docs webapp which ships with tomcat. You can access that webapp
-by starting tomcat and visiting <http://localhost:8080/docs/> in your browser.
-The most up-to-date documentation for each version can be found at:
-- [Tomcat 9](https://tomcat.apache.org/tomcat-9.0-doc/)
-- [Tomcat 8](https://tomcat.apache.org/tomcat-8.5-doc/)
-- [Tomcat 7](https://tomcat.apache.org/tomcat-7.0-doc/)
+javac -encoding ISO-8859-1 -cp './lib/*:' ./webapps/chat/WEB-INF/classes/*.java ./webapps/chat/WEB-INF/classes/pojos/*.java 
+./webapps/chat/WEB-INF/classes/util/*.java
 
-### Installation
+Dans /lib : java -jar h2-1.4.199.jar
 
-Please see [RUNNING.txt](RUNNING.txt) for more info.
+Dans la base jdbc:h2:~/chat -> utilisateur : « sa » mot de passe : « »
 
-### Licensing
+Create table users(LOGIN VARCHAR, SALT NVARCHAR(45),MDP NVARCHAR(45)) ;
 
-Please see [LICENSE](LICENSE) for more info.
+Dans /bin : chmod u+x catalina.sh
+./catalina.sh run
 
-### Support and Mailing List Information
-
-* Free community support is available through the
-[tomcat-users](https://tomcat.apache.org/lists.html#tomcat-users) email list and
-a dedicated [IRC channel](https://tomcat.apache.org/irc.html) (#tomcat on
-Freenode).
-
-* If you want freely available support for running Apache Tomcat, please see the
-resources page [here](https://tomcat.apache.org/findhelp.html).
-
-* If you want to be informed about new code releases, bug fixes,
-security fixes, general news and information about Apache Tomcat, please
-subscribe to the
-[tomcat-announce](https://tomcat.apache.org/lists.html#tomcat-announce) email
-list.
-
-* If you have a concrete bug report for Apache Tomcat, please see the
-instructions for reporting a bug
-[here](https://tomcat.apache.org/bugreport.html).
-
-### Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for more info.
+Dans un navigateur web : localhost :8080/chat/login.htm
